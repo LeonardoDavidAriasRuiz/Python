@@ -15,6 +15,9 @@
 		7E766A7F29A6C3B000E00D02 /* Transformation.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = Transformation.py; sourceTree = "<group>"; };
 		7E766A8029A6C74800E00D02 /* Operators.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = Operators.py; sourceTree = "<group>"; };
 		7E766A8129A6C97600E00D02 /* Comparison.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = Comparison.py; sourceTree = "<group>"; };
+		7E766A8229A6CC1300E00D02 /* Floats.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = Floats.py; sourceTree = "<group>"; };
+		7E766A8329A6CD3100E00D02 /* Logics.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = Logics.py; sourceTree = "<group>"; };
+		7ECC157229A6D7F200A348D8 /* If.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = If.py; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -29,6 +32,9 @@
 				7E766A7F29A6C3B000E00D02 /* Transformation.py */,
 				7E766A8029A6C74800E00D02 /* Operators.py */,
 				7E766A8129A6C97600E00D02 /* Comparison.py */,
+				7E766A8229A6CC1300E00D02 /* Floats.py */,
+				7E766A8329A6CD3100E00D02 /* Logics.py */,
+				7ECC157229A6D7F200A348D8 /* If.py */,
 			);
 			sourceTree = "<group>";
 		};
