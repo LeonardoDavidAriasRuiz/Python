@@ -13,6 +13,7 @@
 		7E766A7D29A6C0B700E00D02 /* Numbers.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = Numbers.py; sourceTree = "<group>"; };
 		7E766A7E29A6C2CA00E00D02 /* Booleans.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = Booleans.py; sourceTree = "<group>"; };
 		7E766A7F29A6C3B000E00D02 /* Transformation.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = Transformation.py; sourceTree = "<group>"; };
+		7E766A8029A6C74800E00D02 /* Operators.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = Operators.py; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -25,6 +26,7 @@
 				7E766A7C29A6BD4F00E00D02 /* Strings.py */,
 				7E766A7E29A6C2CA00E00D02 /* Booleans.py */,
 				7E766A7F29A6C3B000E00D02 /* Transformation.py */,
+				7E766A8029A6C74800E00D02 /* Operators.py */,
 			);
 			sourceTree = "<group>";
 		};
