@@ -21,4 +21,4 @@ list.append(6)
 
 tuple = tuple(list)
 print(tuple)
-g
+
