@@ -40,6 +40,18 @@ print(numbers)
 
 #D
 numbers.remove(7)
-numbers.pop() #Take out the last value and return it
-numbers.pop(0)#Take out the value in the position and return it
+numbers.pop()  #Take out the last value and return it
+numbers.pop(0) #Take out the value in the position and return it
 print(numbers)
+
+#===========================
+#List functions
+#===========================
+
+numbers = [5,3,7,2]
+numbers.sort()
+print(numbers)
+
+list = ["a", "ab", "aa"]
+list.sort()
+print(list)
