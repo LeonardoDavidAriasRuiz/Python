@@ -19,3 +19,27 @@ print(type(differentsTypes))
 
 print(True in differentsTypes)
 
+#===========================
+#Creat, Read, Update, Delete
+#===========================
+
+#C
+numbers = [1,2,3,5]
+
+#R
+print(numbers)
+print(numbers.index(3))
+
+#U
+numbers[-1] = 4
+numbers.append(5)
+numbers.insert(0,0) #(position, value)
+numbers += [6,7]
+
+print(numbers)
+
+#D
+numbers.remove(7)
+numbers.pop() #Take out the last value and return it
+numbers.pop(0)#Take out the value in the position and return it
+print(numbers)
