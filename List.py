@@ -19,9 +19,9 @@ print(type(differentsTypes))
 
 print(True in differentsTypes)
 
-#===========================
-#Creat, Read, Update, Delete
-#===========================
+# ================================
+#   Creat, Read, Update, Delete
+# ================================
 
 #C
 numbers = [1,2,3,5]
@@ -44,9 +44,9 @@ numbers.pop()  #Take out the last value and return it
 numbers.pop(0) #Take out the value in the position and return it
 print(numbers)
 
-#===========================
-#List functions
-#===========================
+# ===========================
+#       List functions
+# ===========================
 
 numbers = [5,3,7,2]
 numbers.sort()
@@ -56,6 +56,9 @@ list = ["a", "ab", "aa"]
 list.sort()
 print(list)
 
+# ===========================
+#          Matriz
+# ===========================
 matriz = [
     [1, 2, 3],
     [4, 5, 6],
