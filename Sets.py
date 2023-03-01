@@ -56,25 +56,20 @@ num1 = {1, 2, 3, 4, 5, 6}
 num2 = {6, 7, 8, 9, 1, 0}
 
 #                                    Union
-num3 = num1.union(num2)
-print(num3)
+print(num1.union(num2))
 print(num1 | num2)
 
 #                                 Intersection
-num3 = num1.intersection(num2)
-print(num3)
+print(num1.intersection(num2))
 print(num1 & num2)
 
 #                                  Difference
-num3 = num1.difference(num2)
-print(num3)
+print(num1.difference(num2))
 print(num1 - num2)
 
-num3 = num2.difference(num1)
-print(num3)
+print(num2.difference(num1))
 print(num2 - num1)
 
 #                              Symmetric Difference
-num3 = num1.symmetric_difference(num2)
-print(num3)
+print(num1.symmetric_difference(num2))
 print(num2 ^ num1)
