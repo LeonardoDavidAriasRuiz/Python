@@ -1,3 +1,6 @@
+# =======================================================================
+#                                S E T S
+# =======================================================================
 
 # Can't have the same value more than one time
 # Random placed
@@ -14,18 +17,18 @@ print(tuple)
 list = set([1, 2, 3, 4, 5, 1, 2])
 print(list)
 
-# =====================
-#       C R U D
-# =====================
+#                    -----------------------------------
+#                                 C R U D
+#                    -----------------------------------
 
 
-# Read
+#                                   Read
 
 print(len(countries))
 print("USA" in countries)
 
 
-# Update
+#                                   Update
 
 countries.add("China")
 countries.add("China")
@@ -34,7 +37,7 @@ print(countries)
 countries.update({"Spain", "Italy"})
 print(countries)
 
-# Delete
+#                                    Delete
 
 countries.remove("China")
 print(countries)
@@ -44,3 +47,34 @@ print(countries)
 
 countries.clear()
 print(countries)
+
+#                    -----------------------------------
+#                             O P E R A T I O N
+#                    -----------------------------------
+
+num1 = {1, 2, 3, 4, 5, 6}
+num2 = {6, 7, 8, 9, 1, 0}
+
+#                                    Union
+num3 = num1.union(num2)
+print(num3)
+print(num1 | num2)
+
+#                                 Intersection
+num3 = num1.intersection(num2)
+print(num3)
+print(num1 & num2)
+
+#                                  Difference
+num3 = num1.difference(num2)
+print(num3)
+print(num1 - num2)
+
+num3 = num2.difference(num1)
+print(num3)
+print(num2 - num1)
+
+#                              Symmetric Difference
+num3 = num1.symmetric_difference(num2)
+print(num3)
+print(num2 ^ num1)
